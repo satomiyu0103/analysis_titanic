@@ -1,0 +1,11 @@
+---
+description: 後方互換スタブ（agent_core / agent_implement へ移行済み）
+alwaysApply: false
+---
+
+# agent_workflows.mdc（非推奨）
+
+このファイルは後方互換用です。参照先:
+
+- 常時: [agent_core.mdc](agent_core.mdc)
+- 実装時: [agent_implement.mdc](agent_implement.mdc)

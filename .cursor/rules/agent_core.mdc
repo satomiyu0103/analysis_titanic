@@ -1,0 +1,31 @@
+---
+description: 全チャット向けの禁止事項と実装完了時の最低義務（常時適用）
+alwaysApply: true
+---
+
+# エージェント憲法（常時）
+
+**「自動更新」**: CI ではなく、**実装タスク完了時にエージェントが doc を更新する義務**を指す。該当しない変更は無理に全ファイルを更新しない。
+
+## 禁止事項
+
+- `.env` や秘密情報（API キー・パスワード等）をコード・ログ・チャットに出力すること
+- 既存テストを壊す変更を無断で行うこと
+- タスクスコープ外のリファクタ・機能追加を行うこと
+- 実装タスク完了後に CHANGELOG 記入を省略すること
+
+## 実装タスク完了時（最低限）
+
+- `doc/specs/07_CHANGELOG.md` の `[Unreleased]` に **FR コード付き** 1 行
+- 実装・設計変更をチャットで完了した場合は `doc/ai_guidelines/エージェント実装記録.md` に従いセッション記録する
+
+## 実装着手時
+
+`src/`・`doc/`・`tests/`・`notebooks/`・`scripts/` を変更する作業では、追加で [`.cursor/rules/agent_implement.mdc`](agent_implement.mdc) が適用される。
+
+## 参照早引き
+
+| 目的 | ファイル |
+|---|---|
+| 参照先一覧 | `doc/ai_guidelines/Project_map.md` |
+| 開発ルール | `doc/ai_guidelines/実装規約.md` |
