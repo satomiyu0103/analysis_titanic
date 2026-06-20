@@ -42,6 +42,7 @@ uv run jupyter lab
 | [doc/reference/setup/uv.md](doc/reference/setup/uv.md) | uv 環境 |
 | [doc/specs/02_要件定義.md](doc/specs/02_要件定義.md) | 要件 |
 | [doc/specs/06_ROADMAP.md](doc/specs/06_ROADMAP.md) | 実装計画 |
+| [doc/specs/08_分析状況.md](doc/specs/08_分析状況.md) | **分析の現状と次のステップ** |
 
 ### for ai
 
